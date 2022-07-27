@@ -10,7 +10,28 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Layout>
-				<h1>main content</h1>
+				<section className='hero-section'>
+					<div className='container'>
+						<form>
+							<input type='search' placeholder='Search...' />
+							<button>
+								<svg
+									xmlns='http://www.w3.org/2000/svg'
+									className='h-6 w-6'
+									fill='none'
+									viewBox='0 0 24 24'
+									stroke='currentColor'
+									strokeWidth={2}>
+									<path
+										strokeLinecap='round'
+										strokeLinejoin='round'
+										d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'
+									/>
+								</svg>
+							</button>
+						</form>
+					</div>
+				</section>
 			</Layout>
 		</>
 	);

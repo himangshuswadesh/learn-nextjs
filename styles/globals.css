@@ -28,9 +28,52 @@ footer {
 	text-align: center;
 }
 main {
-	background-color: bisque;
-	color: brown;
-	padding: 50px;
-	text-align: center;
 	flex: 1;
+}
+.h-6 {
+	height: 24px;
+}
+.w-6 {
+	width: 24px;
+}
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+	padding: 0 16px;
+}
+.hero-section {
+	height: 400px;
+	background-image: url('https://images.unsplash.com/photo-1658842446693-3fb533d7d1f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+	background-position: center;
+	background-size: cover;
+}
+.hero-section .container {
+	position: relative;
+	height: 100%;
+}
+.hero-section form {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 560px;
+	width: 100%;
+	display: flex;
+}
+.hero-section form input {
+	height: 56px;
+	padding: 12px;
+	background-color: #ffffff;
+	border: none;
+	width: 100%;
+}
+.hero-section form button {
+	height: 56px;
+	width: 56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	background-color: gray;
 }
